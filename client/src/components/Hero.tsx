@@ -81,41 +81,30 @@ export function Hero() {
           </div>
         </motion.div>
 
-        {/* Abstract Tech Illustration placeholder */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="relative hidden lg:block"
         >
-          <div className="relative w-full aspect-square max-w-md mx-auto">
-            <div className="absolute inset-0 bg-card/50 backdrop-blur-sm border border-white/10 rounded-xl transform rotate-3 z-10 flex items-center justify-center overflow-hidden">
-               {/* Decorative Code Block */}
-               <div className="p-6 w-full h-full font-mono text-xs text-muted-foreground">
-                 <div className="flex gap-2 mb-4">
-                   <div className="w-3 h-3 rounded-full bg-red-500"/>
-                   <div className="w-3 h-3 rounded-full bg-yellow-500"/>
-                   <div className="w-3 h-3 rounded-full bg-green-500"/>
-                 </div>
-                 <p className="text-primary">import</p> <span className="text-white">React</span> <span className="text-primary">from</span> <span className="text-secondary">'react'</span>;
-                 <br/><br/>
-                 <p><span className="text-purple-400">function</span> <span className="text-yellow-300">Developer</span>() &#123;</p>
-                 <p className="pl-4"><span className="text-purple-400">const</span> skills = [</p>
-                 <p className="pl-8 text-secondary">'TypeScript', 'React', 'Node.js'</p>
-                 <p className="pl-4">];</p>
-                 <br/>
-                 <p className="pl-4"><span className="text-purple-400">return</span> (</p>
-                 <p className="pl-8">&lt;<span className="text-primary">Innovation</span></p>
-                 <p className="pl-12"><span className="text-blue-300">drivenBy</span>=&#123;passion&#125;</p>
-                 <p className="pl-12"><span className="text-blue-300">poweredBy</span>=&#123;code&#125;</p>
-                 <p className="pl-8">/&gt;</p>
-                 <p className="pl-4">);</p>
-                 <p>&#125;</p>
-               </div>
+          <div className="relative w-full aspect-square max-w-md mx-auto group">
+            <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+            <div className="relative w-full h-full rounded-2xl overflow-hidden border border-white/10 bg-card shadow-2xl">
+              <img 
+                src="/profile.jpg" 
+                alt="Faisal Younis" 
+                className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-500 scale-105"
+              />
             </div>
+            
+            {/* Stats Badge */}
+            <div className="absolute -bottom-6 -right-6 w-28 h-28 bg-background/80 backdrop-blur-xl border border-primary/20 rounded-2xl p-4 flex flex-col items-center justify-center shadow-2xl z-20">
+              <span className="text-primary font-bold text-2xl">5+</span>
+              <span className="text-[10px] text-muted-foreground uppercase text-center font-mono font-bold leading-tight">Years<br/>Experience</span>
+            </div>
+
             {/* Background elements for depth */}
-            <div className="absolute inset-0 bg-primary/20 rounded-xl transform -rotate-3 z-0 blur-sm scale-95" />
-            <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 to-secondary/20 rounded-full blur-xl -z-10 animate-pulse" />
+            <div className="absolute inset-0 bg-primary/20 rounded-2xl transform -rotate-3 z-0 blur-sm scale-95" />
           </div>
         </motion.div>
       </div>

@@ -50,7 +50,7 @@ export function AboutSection() {
             <p>
               When I'm not coding, I'm exploring the latest in cybersecurity trends, optimizing my personal server setup, or experimenting with new IoT devices.
             </p>
-            <div className="relative group">
+            <div className="relative group max-w-sm mx-auto mt-8">
               <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
