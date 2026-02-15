@@ -50,6 +50,21 @@ export function AboutSection() {
             <p>
               When I'm not coding, I'm exploring the latest in cybersecurity trends, optimizing my personal server setup, or experimenting with new IoT devices.
             </p>
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                className="relative aspect-square rounded-2xl overflow-hidden border border-white/10 bg-card"
+              >
+                <img 
+                  src="/profile.jpg" 
+                  alt="Faisal Younis" 
+                  className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-500"
+                />
+              </motion.div>
+            </div>
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
