@@ -1,5 +1,6 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { api, type InsertMessage } from "@shared/routes";
+import { api } from "@shared/routes";
+import { type InsertMessage } from "@shared/schema";
 import { useToast } from "@/hooks/use-toast";
 import { PROJECTS_DATA, EXPERIENCE_DATA, SKILLS_DATA } from "@shared/static-data";
 
