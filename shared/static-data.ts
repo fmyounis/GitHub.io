@@ -14,7 +14,7 @@ export const PROJECTS_DATA: Project[] = [
       "Redux",
       "Material-UI",
     ],
-    imageUrl: "./demo-video2.mp4",
+    imageUrl: "./assets/demo-video2.mp4",
     demoUrl: null,
     repoUrl: null,
     featured: true,
@@ -34,7 +34,7 @@ export const PROJECTS_DATA: Project[] = [
       "seaborn",
       "Tkinter",
     ],
-    imageUrl: "./CF-Matrix-Student-Majors.png", // Placeholder - original image not found
+    imageUrl: "./assets/CF-Matrix-Student-Majors.png", // Placeholder - original image not found
     demoUrl: null,
     repoUrl: null,
     featured: true,
@@ -54,7 +54,7 @@ export const PROJECTS_DATA: Project[] = [
       "seaborn",
       "L1/L2 Regularization",
     ],
-    imageUrl: "./Figure1-Churn.jpg",
+    imageUrl: "./assets/Figure1-Churn.jpg",
     demoUrl: null,
     repoUrl: null,
     featured: true,
@@ -66,7 +66,7 @@ export const PROJECTS_DATA: Project[] = [
     description:
       "A puzzle-solving game implemented in Java with a focus on object-oriented principles. Contributed to both frontend and backend development, including accessibility features for visually impaired users.",
     techStack: ["Java", "Object-Oriented Design", "Accessibility"],
-    imageUrl: "./ricochet1.jpg",
+    imageUrl: "./assets/ricochet1.jpg",
     demoUrl: null,
     repoUrl: null,
     featured: true,
@@ -78,7 +78,7 @@ export const PROJECTS_DATA: Project[] = [
     description:
       "Explores grid-based simulations using Java, highlighting algorithmic behavior like Conway's Game of Life. Features include random initialization, spaceship and pulsar patterns, and customizable grid parameters.",
     techStack: ["Java", "Algorithms", "Simulation"],
-    imageUrl: "./cellular_automaton.jpg",
+    imageUrl: "./assets/cellular_automaton.jpg",
     demoUrl: null,
     repoUrl: null,
     featured: false,
@@ -90,7 +90,7 @@ export const PROJECTS_DATA: Project[] = [
     description:
       "Implementation of the A* search algorithm in JavaScript with customizable grid and obstacle support. Includes visualization of the pathfinding process and comparison with BFS/DFS algorithms.",
     techStack: ["JavaScript", "Algorithms", "Pathfinding"],
-    imageUrl: "./astar_algorithm.jpg",
+    imageUrl: "./assets/astar_algorithm.jpg",
     demoUrl: null,
     repoUrl: null,
     featured: true,
@@ -102,7 +102,7 @@ export const PROJECTS_DATA: Project[] = [
     description:
       "Solves Sudoku puzzles using genetic algorithms and heuristics. Features a fitness graph to visualize the algorithm's progress and multiple solving strategies.",
     techStack: ["JavaScript", "Genetic Algorithms", "Heuristics"],
-    imageUrl: "./sudoku_board_algorithm.jpg",
+    imageUrl: "./assets/sudoku_board_algorithm.jpg",
     demoUrl: null,
     repoUrl: null,
     featured: false,
@@ -114,7 +114,7 @@ export const PROJECTS_DATA: Project[] = [
     description:
       "AI bot for the TRON game that optimizes movement and strategy. Implements path exploration and decision-making algorithms to maximize coverage while avoiding self-traps.",
     techStack: ["C++", "AI", "Game Development"],
-    imageUrl: "./tron_ai_bot.jpg",
+    imageUrl: "./assets/tron_ai_bot.jpg",
     demoUrl: null,
     repoUrl: null,
     featured: true,
@@ -126,7 +126,7 @@ export const PROJECTS_DATA: Project[] = [
     description:
       "Competitive AI bot for StarCraft: BroodWar that implements strategic decision-making for Zerg units. Features efficient scouting, resource management, and adaptive combat tactics.",
     techStack: ["C++", "AI", "Real-time Strategy", "BroodWar API"],
-    imageUrl: "./starcraft_project.jpg",
+    imageUrl: "./assets/starcraft_project.jpg",
     demoUrl: "https://www.youtube.com/watch?v=JaIZM8mKcls",
     repoUrl: null,
     featured: true,
