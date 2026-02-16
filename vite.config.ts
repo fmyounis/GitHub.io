@@ -5,7 +5,7 @@ import path from "path";
 const root = path.resolve(__dirname, "client");
 
 export default defineConfig({
-  base: '/GitHub.io/',
+  base: './',
   plugins: [
     react(),
   ],
