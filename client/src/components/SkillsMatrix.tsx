@@ -67,26 +67,6 @@ export function SkillsMatrix() {
                     </div>
                   ))}
                 </div>
-
-                {/* Progress bars for high proficiency skills */}
-                <div className="mt-6 space-y-3">
-                  {categorySkills.filter(s => (s.proficiency || 0) > 85).slice(0, 2).map(skill => (
-                    <div key={skill.id} className="text-xs">
-                      <div className="flex justify-between mb-1">
-                        <span className="text-gray-400">{skill.name}</span>
-                        <span className="text-primary font-mono">{skill.proficiency}%</span>
-                      </div>
-                      <div className="w-full h-1 bg-white/10 rounded-full overflow-hidden">
-                        <motion.div
-                          initial={{ width: 0 }}
-                          whileInView={{ width: `${skill.proficiency}%` }}
-                          transition={{ duration: 1, ease: "easeOut" }}
-                          className="h-full bg-gradient-to-r from-primary to-secondary"
-                        />
-                      </div>
-                    </div>
-                  ))}
-                </div>
               </motion.div>
             ))}
           </div>

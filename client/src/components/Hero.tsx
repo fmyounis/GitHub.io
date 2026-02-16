@@ -25,16 +25,17 @@ export function Hero() {
           <div className="inline-block px-3 py-1 mb-4 rounded-full border border-primary/30 bg-primary/10 text-primary font-mono text-sm">
             STATUS: ONLINE_
           </div>
-          
+
           <h1 className="text-4xl md:text-7xl font-bold font-mono leading-tight mb-4">
             FAISAL <span className="text-white/20">YOUNIS</span>
           </h1>
-          
+
           <div className="text-xl md:text-3xl text-muted-foreground font-mono h-24 md:h-20 mb-6">
             <span className="text-primary mr-2">&gt;</span>
             <Typewriter
               options={{
                 strings: [
+                  "MSCS Student @ Georgia Tech",
                   "Full Stack Developer",
                   "Operations Analyst",
                   "Cybersecurity Enthusiast",
@@ -69,13 +70,13 @@ export function Hero() {
           </div>
 
           <div className="flex items-center gap-6 mt-12">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://github.com/fmyounis" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-secondary transition-colors">
+            <a href="https://www.linkedin.com/in/faisal-younis21" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-secondary transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="mailto:contact@faisalyounis.dev" className="text-muted-foreground hover:text-white transition-colors">
+            <a href="mailto:fyounis.11@gmail.com" className="text-muted-foreground hover:text-white transition-colors">
               <Mail className="w-6 h-6" />
             </a>
           </div>
@@ -91,12 +92,12 @@ export function Hero() {
             <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
             <div className="relative w-full h-full rounded-2xl overflow-hidden border border-white/10 bg-card shadow-2xl">
               <img 
-                src="/profile.jpg" 
+                src="/Profile-Picture.jpeg" 
                 alt="Faisal Younis" 
                 className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-500 scale-105"
               />
             </div>
-            
+
             {/* Stats Badge */}
             <div className="absolute -bottom-6 -right-6 w-28 h-28 bg-background/80 backdrop-blur-xl border border-primary/20 rounded-2xl p-4 flex flex-col items-center justify-center shadow-2xl z-20">
               <span className="text-primary font-bold text-2xl">5+</span>

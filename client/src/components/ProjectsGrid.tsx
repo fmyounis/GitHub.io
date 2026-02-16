@@ -10,7 +10,7 @@ export function ProjectsGrid() {
   return (
     <section id="projects" className="py-20 md:py-32 bg-black/40">
       <div className="container mx-auto px-4">
-        <SectionHeading title="DEPLOYED_WORKS" subtitle="Selected projects and experiments." align="right" />
+        <SectionHeading title="DEPLOYED_WORKS" subtitle="Selected projects and experiments." align="left" />
 
         {isLoading ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -47,10 +47,10 @@ export function ProjectsGrid() {
                       <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20"></div>
                     </div>
                   )}
-                  
+
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent opacity-60" />
-                  
+
                   {/* Floating Links */}
                   <div className="absolute bottom-4 right-4 flex gap-3 translate-y-10 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
                     {project.repoUrl && (
@@ -86,7 +86,7 @@ export function ProjectsGrid() {
                   <p className="text-muted-foreground text-sm mb-6 flex-1 leading-relaxed">
                     {project.description}
                   </p>
-                  
+
                   <div className="flex flex-wrap gap-2 mt-auto">
                     {project.techStack?.map((tech) => (
                       <span 

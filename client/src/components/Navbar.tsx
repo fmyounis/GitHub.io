@@ -65,7 +65,7 @@ export function Navbar() {
             </button>
           ))}
           <a
-            href="/Resume-22_1771171570123.pdf"
+            href="/Resume-22.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-primary/10 text-primary border border-primary/20 rounded hover:bg-primary/20 hover:border-primary/50 transition-all duration-300 font-mono text-sm"
