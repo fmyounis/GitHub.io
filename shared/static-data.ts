@@ -15,7 +15,7 @@ export const PROJECTS_DATA: Project[] = [
       "Material-UI",
     ],
     imageUrl: "./assets/demo-video2.mp4",
-    demoUrl: null,
+    demoUrl: "https://crewly.ca",
     repoUrl: null,
     featured: true,
     order: 1,
