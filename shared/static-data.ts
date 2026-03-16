@@ -145,7 +145,7 @@ export const EXPERIENCE_DATA: Experience[] = [
     description:
       "Supporting developer productivity and mission-critical financial crime detection platforms.",
     achievements: [
-      "Supported developer productivity and mission-critical financial crime detection platforms.",
+      "Enhanced developer productivity through streamlined build processes and automation.",
       "Collaborated with software engineers and QA teams to troubleshoot build failures.",
       "Analyzed CI/CD pipeline behavior to identify recurring failures.",
       "Supported AWS-hosted environments and incident triage.",
