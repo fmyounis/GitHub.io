@@ -42,13 +42,13 @@ export function AboutSection() {
   I'm a <strong className="text-primary">Senior Operations Analyst</strong> at <strong>Nasdaq Verafin</strong> with a passion for <strong className="text-white">automation</strong> and <strong className="text-white">innovation</strong>. As a top performer in a fast-paced fintech environment, I've developed a reputation for <strong className="text-white">solving complex problems</strong> and <strong className="text-white">delivering results</strong> under tight deadlines.
 </p>
 <p className="mb-6">
-  My journey in tech is driven by an insatiable curiosity for <strong className="text-white">optimizing systems</strong> and <strong className="text-white">streamlining processes</strong>. Whether it's automating repetitive tasks or architecting scalable solutions, I thrive on finding elegant solutions to challenging problems.
+  My journey in tech is driven by an insatiable curiosity for <strong className="text-white">optimizing systems</strong> and <strong className="text-white">streamlining processes</strong>. I specialize in automating repetitive tasks and architecting scalable solutions, thriving on finding elegant approaches to challenging problems.
 </p>
 <p className="mb-6">
   Currently pursuing my <span className="text-primary">Master's in Computer Science at Georgia Tech</span>, I'm constantly expanding my technical toolkit to stay at the forefront of emerging technologies. My background at <span className="text-primary">Canada Revenue Agency</span> and <span className="text-primary">Nasdaq Verafin</span> has honed my ability to bridge the gap between technical implementation and business objectives.
 </p>
 <p>
-  When I'm not coding, you'll find me <strong className="text-white">mentoring junior developers</strong>, contributing to <strong className="text-white">open-source projects</strong>, or exploring the latest in <strong className="text-white">cybersecurity trends</strong> and <strong className="text-white">cloud technologies</strong>.
+  When I'm not coding, you'll find me exploring the latest in <strong className="text-white">cybersecurity trends</strong>, experimenting with <strong className="text-white">new technologies</strong>, or working on <strong className="text-white">personal coding projects</strong>.
 </p>
           </motion.div>
 
