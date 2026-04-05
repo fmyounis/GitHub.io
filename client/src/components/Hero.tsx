@@ -40,6 +40,7 @@ export function Hero() {
                   "Operations Analyst",
                   "Cybersecurity Enthusiast",
                   "Tech Innovator",
+                  "Founder of Crewly WF Management WebApp",
                 ],
                 autoStart: true,
                 loop: true,
