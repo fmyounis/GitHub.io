@@ -76,7 +76,7 @@ export function Hero() {
             <a href="https://github.com/fmyounis" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://www.linkedin.com/in/faisal-younis21" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-secondary transition-colors">
+            <a href="https://linkedin.com/in/faisal-younis21" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-secondary transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
             <a href="mailto:fyounis.11@gmail.com" className="text-muted-foreground hover:text-white transition-colors">
