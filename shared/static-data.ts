@@ -204,129 +204,101 @@ export const SKILLS_DATA: Skill[] = [
     proficiency: 80,
     icon: null,
   },
+  { id: 8, category: "Languages", name: "Go/Golang", proficiency: 75, icon: null },
+  { id: 9, category: "Languages", name: "HTML/CSS", proficiency: 85, icon: null },
+  { id: 10, category: "Languages", name: "JSON", proficiency: 90, icon: null },
 
   // Cloud & Infrastructure
   {
-    id: 8,
+    id: 11,
     category: "Cloud & DevOps",
     name: "AWS (EC2, Lambda, IAM, RDS, S3)",
     proficiency: 85,
     icon: null,
   },
   {
-    id: 9,
+    id: 12,
+    category: "Cloud & DevOps",
+    name: "AWS CLI",
+    proficiency: 85,
+    icon: null,
+  },
+  {
+    id: 13,
     category: "Cloud & DevOps",
     name: "Terraform",
     proficiency: 80,
     icon: null,
   },
   {
-    id: 10,
+    id: 14,
     category: "Cloud & DevOps",
     name: "Docker",
     proficiency: 80,
     icon: null,
   },
   {
-    id: 11,
+    id: 15,
     category: "Cloud & DevOps",
     name: "Kubernetes",
     proficiency: 75,
     icon: null,
   },
   {
-    id: 12,
+    id: 16,
     category: "Cloud & DevOps",
     name: "CI/CD Pipelines",
     proficiency: 80,
     icon: null,
   },
+  {
+    id: 17,
+    category: "Cloud & DevOps",
+    name: "Linux System Administration",
+    proficiency: 85,
+    icon: null,
+  },
+
+  // Databases
+  { id: 18, category: "Databases", name: "PostgreSQL", proficiency: 85, icon: null },
+  { id: 19, category: "Databases", name: "MySQL", proficiency: 80, icon: null },
 
   // Tools & Platforms
-  { id: 13, category: "Tools", name: "Git", proficiency: 90, icon: null },
-  { id: 14, category: "Tools", name: "Jenkins", proficiency: 80, icon: null },
+  { id: 20, category: "Tools", name: "Git", proficiency: 90, icon: null },
+  { id: 21, category: "Tools", name: "Jenkins", proficiency: 80, icon: null },
   {
-    id: 15,
+    id: 22,
     category: "Tools",
     name: "GitHub Actions",
     proficiency: 85,
     icon: null,
   },
+  { id: 23, category: "Tools", name: "Confluence", proficiency: 80, icon: null },
+  { id: 24, category: "Tools", name: "VS Code", proficiency: 90, icon: null },
+  { id: 25, category: "Tools", name: "IntelliJ IDEA", proficiency: 85, icon: null },
 
   // Monitoring & Analytics
   {
-    id: 16,
+    id: 26,
     category: "Monitoring",
     name: "CloudWatch",
     proficiency: 85,
     icon: null,
   },
   {
-    id: 17,
+    id: 27,
     category: "Monitoring",
     name: "Grafana",
     proficiency: 75,
     icon: null,
   },
-  {
-    id: 18,
-    category: "Monitoring",
-    name: "Splunk",
-    proficiency: 80,
-    icon: null,
-  },
 
-  // Platforms & Systems
-  {
-    id: 19,
-    category: "Platforms",
-    name: "Linux/Unix",
-    proficiency: 85,
-    icon: null,
-  },
-  {
-    id: 20,
-    category: "Platforms",
-    name: "Windows Server",
-    proficiency: 75,
-    icon: null,
-  },
-  {
-    id: 21,
-    category: "Platforms",
-    name: "ServiceNow",
-    proficiency: 85,
-    icon: null,
-  },
-  {
-    id: 22,
-    category: "Platforms",
-    name: "BMC Remedy/Helix",
-    proficiency: 80,
-    icon: null,
-  },
-  {
-    id: 23,
-    category: "Platforms",
-    name: "Salesforce",
-    proficiency: 80,
-    icon: null,
-  },
+  // Data & Analytics
+  { id: 28, category: "Data & Analytics", name: "Pandas", proficiency: 80, icon: null },
+  { id: 29, category: "Data & Analytics", name: "NumPy", proficiency: 80, icon: null },
 
-  // Security
-  { id: 24, category: "Security", name: "IAM", proficiency: 85, icon: null },
-  {
-    id: 25,
-    category: "Security",
-    name: "Security Best Practices",
-    proficiency: 85,
-    icon: null,
-  },
-  {
-    id: 26,
-    category: "Security",
-    name: "Data Governance",
-    proficiency: 80,
-    icon: null,
-  },
+  // Enterprise Platforms
+  { id: 30, category: "Enterprise Platforms", name: "Salesforce", proficiency: 80, icon: null },
+  { id: 31, category: "Enterprise Platforms", name: "Active Directory", proficiency: 85, icon: null },
+  { id: 32, category: "Enterprise Platforms", name: "LDAP", proficiency: 80, icon: null },
 ];
