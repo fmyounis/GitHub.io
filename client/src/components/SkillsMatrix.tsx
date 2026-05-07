@@ -21,8 +21,16 @@ export function SkillsMatrix() {
       case "frontend": return <Layout className="w-5 h-5 text-primary" />;
       case "backend": return <Server className="w-5 h-5 text-secondary" />;
       case "devops": return <Settings className="w-5 h-5 text-blue-400" />;
-      case "languages": return <Code2 className="w-5 h-5 text-yellow-400" />;
+      case "languages": return <Code2 className="w-5 h-5 text-blue-400" />;
       case "data": return <Database className="w-5 h-5 text-green-400" />;
+      case "ai & automation": return <Settings className="w-5 h-5 text-purple-400" />;
+      case "cloud & devops": return <Settings className="w-5 h-5 text-blue-400" />;
+      case "databases": return <Database className="w-5 h-5 text-green-400" />;
+      case "tools": return <TerminalSquare className="w-5 h-5 text-white" />;
+      case "monitoring": return <Settings className="w-5 h-5 text-orange-400" />;
+      case "data & analytics": return <Database className="w-5 h-5 text-green-400" />;
+      case "security": return <Settings className="w-5 h-5 text-red-400" />;
+      case "enterprise platforms": return <Server className="w-5 h-5 text-secondary" />;
       default: return <TerminalSquare className="w-5 h-5 text-white" />;
     }
   };
