@@ -48,7 +48,7 @@ export function AboutSection() {
   Currently pursuing my <span className="text-primary">Master's in Computer Science at Georgia Tech</span>, I'm constantly expanding my technical toolkit to stay at the forefront of emerging technologies. My background at <span className="text-primary">Canada Revenue Agency</span> and <span className="text-primary">Nasdaq Verafin</span> has honed my ability to bridge the gap between technical implementation and business objectives.
 </p>
 <p>
-  When I'm not coding, you'll find me exploring the latest in <strong className="text-white">cybersecurity trends</strong>, experimenting with <strong className="text-white">new technologies</strong>, or working on <strong className="text-white">personal coding projects</strong>.
+  When I'm not coding, you'll find me diving deep into <strong className="text-white">cutting-edge AI research</strong>, building <strong className="text-white">intelligent automation systems</strong>, or training <strong className="text-white">machine learning models</strong> that solve real-world problems.
 </p>
           </motion.div>
 
