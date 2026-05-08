@@ -108,7 +108,7 @@ export function Hero() {
             </div>
 
             {/* Background elements for depth */}
-            <div className="absolute inset-0 bg-primary/20 rounded-2xl transform -rotate-3 z-0 blur-sm scale-95" />
+            <div className="absolute inset-0 bg-transparent rounded-2xl transform -rotate-3 z-0 scale-95" />
           </div>
         </motion.div>
       </div>
