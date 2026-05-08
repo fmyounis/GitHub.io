@@ -97,7 +97,7 @@ export function Hero() {
               <img 
                 src="./assets/Profile-Picture.jpeg" 
                 alt="Faisal Younis" 
-                className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-500 scale-105"
+                className="object-cover w-full h-full hover:scale-105 transition-all duration-500"
               />
             </div>
 
