@@ -143,12 +143,12 @@ export const EXPERIENCE_DATA: Experience[] = [
     startDate: "Jun 2026",
     endDate: "Present",
     description:
-      "Started this new position June 1st - Leading software engineering initiatives and developer productivity improvements.",
+      "Leading software engineering initiatives and developer productivity improvements.",
     achievements: [
-      "Leading cross-functional teams to optimize software development workflows.",
-      "Architecting and implementing automated solutions for complex business problems.",
-      "Driving innovation in CI/CD pipeline optimization and deployment strategies.",
-      "Mentoring junior developers and establishing best practices for software engineering.",
+      "Leading AI initiatives and projects to drive business innovation.",
+      "Providing technical guidance and innovative solutions for developer challenges across the organization.",
+      "Building intelligent automation systems for critical business workflows.",
+      "Enhancing software delivery through CI/CD pipeline improvements and smoother diagnoses/troubleshooting.",
     ],
     order: 0,
   },
