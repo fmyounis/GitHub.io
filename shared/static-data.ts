@@ -138,10 +138,27 @@ export const EXPERIENCE_DATA: Experience[] = [
   {
     id: 1,
     company: "Nasdaq Verafin",
+    role: "Senior Analyst - Software Engineering",
+    location: "St. John's, NL, Canada",
+    startDate: "Jun 2026",
+    endDate: "Present",
+    description:
+      "Started this new position June 1st - Leading software engineering initiatives and developer productivity improvements.",
+    achievements: [
+      "Leading cross-functional teams to optimize software development workflows.",
+      "Architecting and implementing automated solutions for complex business problems.",
+      "Driving innovation in CI/CD pipeline optimization and deployment strategies.",
+      "Mentoring junior developers and establishing best practices for software engineering.",
+    ],
+    order: 0,
+  },
+  {
+    id: 2,
+    company: "Nasdaq Verafin",
     role: "Operations Analyst",
     location: "St. John's, NL, Canada",
     startDate: "Mar 2025",
-    endDate: "Present",
+    endDate: "May 2026",
     description:
       "Supporting developer productivity and mission-critical financial crime detection platforms.",
     achievements: [
@@ -153,7 +170,7 @@ export const EXPERIENCE_DATA: Experience[] = [
     order: 1,
   },
   {
-    id: 2,
+    id: 3,
     company: "Canada Revenue Agency",
     role: "IT Infrastructure Support Analyst",
     location: "St. John's, NL, Canada",

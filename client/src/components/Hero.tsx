@@ -37,7 +37,7 @@ export function Hero() {
                 strings: [
                   "MSCS Student @ Georgia Tech",
                   "Full Stack Developer",
-                  "Operations Analyst",
+                  "Senior Analyst - Software Engineering",
                   "AWS Cloud Administrator",
                   "Jenkins & Pipeline Admin",
                   "Enterprise GitHub Admin",
