@@ -22,10 +22,6 @@ export function Hero() {
           transition={{ duration: 0.8 }}
           className="text-left"
         >
-          <div className="inline-block px-3 py-1 mb-4 rounded-full border border-primary/30 bg-primary/10 text-primary font-mono text-sm">
-            STATUS: ONLINE_
-          </div>
-
           <h1 className="text-4xl md:text-7xl font-bold font-mono leading-tight mb-4">
             FAISAL <span className="text-white/20">YOUNIS</span>
           </h1>

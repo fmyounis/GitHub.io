@@ -12,15 +12,6 @@ export function Footer() {
             © {currentYear} Faisal Younis. All rights reserved.
           </span>
         </div>
-        
-        <div className="flex items-center gap-6">
-          <span className="text-xs font-mono text-muted-foreground">
-            System Status: <span className="text-green-500">Operational</span>
-          </span>
-          <div className="flex gap-2">
-            <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-          </div>
-        </div>
       </div>
     </footer>
   );
