@@ -39,7 +39,7 @@ export function AboutSection() {
             className="prose prose-invert prose-lg max-w-none font-sans text-muted-foreground"
           >
             <p className="mb-6">
-  I'm a <strong className="text-primary">Senior Operations Analyst</strong> at <strong>Nasdaq Verafin</strong> with a passion for <strong className="text-white">automation</strong> and <strong className="text-white">innovation</strong>. As a top performer in a fast-paced fintech environment, I've developed a reputation for <strong className="text-white">solving complex problems</strong> and <strong className="text-white">delivering results</strong> under tight deadlines.
+  I'm a <strong className="text-primary">Senior Analyst - Software Engineering</strong> at <strong>Nasdaq Verafin</strong> with a passion for <strong className="text-white">automation</strong> and <strong className="text-white">innovation</strong>. As a top performer in a fast-paced fintech environment, I've developed a reputation for <strong className="text-white">solving complex problems</strong> and <strong className="text-white">delivering results</strong> under tight deadlines.
 </p>
 <p className="mb-6">
   My journey in tech is driven by an insatiable curiosity for <strong className="text-white">optimizing systems</strong> and <strong className="text-white">streamlining processes</strong>. I specialize in automating repetitive tasks and architecting scalable solutions, thriving on finding elegant approaches to challenging problems.
