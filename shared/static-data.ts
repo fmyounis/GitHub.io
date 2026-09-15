@@ -138,7 +138,7 @@ export const EXPERIENCE_DATA: Experience[] = [
   {
     id: 1,
     company: "Nasdaq Verafin",
-    role: "Senior Analyst - Software Engineering",
+    role: "Senior Software Engineer",
     location: "St. John's, NL, Canada",
     startDate: "Jun 2026",
     endDate: "Present",
