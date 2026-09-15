@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { SectionHeading } from "./SectionHeading";
-import { Cpu, Globe, Database, Shield } from "lucide-react";
+import { Cpu, Globe, Database, Shield, Target, Users } from "lucide-react";
 
 export function AboutSection() {
   const cards = [
@@ -23,6 +23,16 @@ export function AboutSection() {
     icon: <Shield className="w-8 h-8 text-red-400" />,
     title: "Process Optimization",
     description: "Streamlining operations through automation, reducing manual effort by 60-80% in key business processes."
+  },
+  {
+    icon: <Target className="w-8 h-8 text-green-400" />,
+    title: "Service Delivery",
+    description: "Managing SLA commitments, KPI reporting, and service level visibility to ensure client satisfaction and operational excellence."
+  },
+  {
+    icon: <Users className="w-8 h-8 text-purple-400" />,
+    title: "Technical Coordination",
+    description: "Bridging cross-functional teams, coordinating incident resolution, and delivering technical guidance across engineering and operations."
   }
 ];
 
