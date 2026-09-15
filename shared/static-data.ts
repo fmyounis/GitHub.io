@@ -143,12 +143,13 @@ export const EXPERIENCE_DATA: Experience[] = [
     startDate: "Jun 2026",
     endDate: "Present",
     description:
-      "Leading software engineering initiatives and developer productivity improvements.",
+      "Leading software engineering initiatives with focus on client-facing technical coordination and developer productivity improvements.",
     achievements: [
-      "Leading AI initiatives and projects to drive business innovation.",
-      "Providing technical guidance and innovative solutions for developer challenges across the organization.",
-      "Building intelligent automation systems for critical business workflows.",
-      "Enhancing software delivery through CI/CD pipeline improvements and smoother diagnoses/troubleshooting.",
+      "Leading AI initiatives and automation projects to drive business innovation and operational efficiency.",
+      "Serving as primary technical liaison for cross-functional teams, coordinating incident resolution and technical escalations across engineering, QA, and operations.",
+      "Building intelligent automation systems and dashboards for SLA monitoring, KPI reporting, and service level visibility.",
+      "Enhancing software delivery through CI/CD pipeline improvements and providing technical guidance for complex troubleshooting scenarios.",
+      "Administering GitHub Enterprise and Jenkins infrastructure while delivering technical training and onboarding support for development teams.",
     ],
     order: 0,
   },
@@ -307,6 +308,36 @@ export const SKILLS_DATA: Skill[] = [
     category: "Monitoring",
     name: "Grafana",
     proficiency: 75,
+    icon: null,
+  },
+
+  // Client Success & Operations
+  {
+    id: 33,
+    category: "Client Success",
+    name: "SLA Management",
+    proficiency: 85,
+    icon: null,
+  },
+  {
+    id: 34,
+    category: "Client Success",
+    name: "Incident Management",
+    proficiency: 85,
+    icon: null,
+  },
+  {
+    id: 35,
+    category: "Client Success",
+    name: "KPI Reporting",
+    proficiency: 80,
+    icon: null,
+  },
+  {
+    id: 36,
+    category: "Client Success",
+    name: "Client Relationship Management",
+    proficiency: 80,
     icon: null,
   },
 
