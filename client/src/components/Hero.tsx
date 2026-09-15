@@ -91,7 +91,7 @@ export function Hero() {
             <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-2xl blur opacity-0 transition duration-1000"></div>
             <div className="relative w-full h-full rounded-2xl overflow-hidden border border-white/10 bg-card shadow-2xl">
               <img 
-                src="./assets/Profile-Picture.jpeg" 
+                src="./assets/Profile-Picture.png" 
                 alt="Faisal Younis" 
                 className="object-cover w-full h-full hover:scale-105 transition-all duration-500"
               />
